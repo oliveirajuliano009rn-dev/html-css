@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(156, 241, 241);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(12, 110, 110);
+}
+h2{
+    color: rgb(60, 126, 126);
+}
+p{
+    color: rgb(37, 117, 117);
+}
+h1#principal{
+    text-align: center;
+    background-color: aqua;
+}
+.basico{
+color: rgb(12, 22, 110)
+}
+.intermediario{
+color: rgb(110, 108, 12)
+}
+.avancaco{
+  color: rgb(117, 37, 37);
+    }

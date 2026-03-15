@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* #= id 
+       .= clss
+       : = pseudo-clss
+       :: = pseudo-element
+       > = clildren */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: brown;
+            text-align: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:darkred
+        }
+        a:hover{
+            color: #000;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        } .especial::before{
+            content: '[';
+        }
+        .especial::after{
+            content: ']';
+        }
+    </style>
+</head>
+<body>
+    <h1> personalizado links</h1>
+    <ul>
+    <li><a href="https://youtu.be/vMlrcOVr7po?si=c9O7eG3uf5egb9P2" target="_blank">repositorio do git</a></li>
+    <li><a href="https://youtu.be/vMlrcOVr7po?si=c9O7eG3uf5egb9P2" target="_blank" class="especial">canal do youtube</a> </li>
+    <li><a href="https://youtu.be/vMlrcOVr7po?si=c9O7eG3uf5egb9P2" target="_blank">site do curso em vidio</a></li>
+  </ul>
+</body>
+</html>
